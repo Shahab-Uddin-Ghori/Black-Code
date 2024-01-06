@@ -1,0 +1,85 @@
+/* Body ke default styles ko margin aur padding ke liye reset karna */
+body {
+  margin: 0; /* Kisi bhi side ka space nahi hona chahiye */
+  padding: 0; /* Content ke aas paas space nahi hona chahiye */
+  /* background-color: black; */
+}
+
+/* Header ya navigation bar container ke liye styling */
+.container {
+  background-color: #171718; /* Container ka background color */
+  width: 100%; /* Poora viewport width le lena */
+  padding: 0; /* Padding container ke andar se */
+  height: 60px;
+  /* Flexbox ka istemal */
+  /* Flexbox CSS module ek layout technique hai jo web elements ko arrange karne
+    ke liye use hoti hai. Yeh flexible aur responsive layouts create karne mein madad
+    karta hai, elements ko horizontal aur vertical axis par align karne ke liye properties
+    jaise justify-content aur align-items ka istemal hota hai. */
+  display: flex;
+  justify-content: space-between; /* Element ko equal space dena */
+  align-items: center; /* Element ko vertically center me align karna */
+}
+
+/* NavBar ke andar main heading ke liye styling */
+#h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Font family setting */
+  font-size: x-large; /* Badi size ka font */
+  margin-left: 50px; /* Left side se thoda sa space dena */
+  color: #d3d3d4; /* Text color ka setting */
+  font-weight: 600; /* Text ka bold banana */
+  text-decoration: none;
+}
+
+/* Login aur signup links ke liye styling */
+.login,
+.signup {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Font family setting */
+  font-weight: 400; /* Normal font weight */
+  line-height: 16px; /* Text lines ke beech ka space */
+  font-size: 14px; /* Font size setting */
+  color: #d3d3d4; /* Text color ka setting */
+  padding: 0 16px; /* Text ke aas-paas space dena */
+  text-decoration: none; /* Underline ya decoration hatana */
+  display: flex; /* Flexbox ka istemal */
+  align-items: center; /* Element ko vertically center me align karna */
+}
+
+/* Login aur signup links ko right side par adjust karne ke liye */
+.navposition {
+  display: flex; /* Flexbox ka istemal */
+  align-items: center; /* Element ko vertically center me align karna */
+}
+.imgdiv {
+  background: linear-gradient(to top, #dbdbdb, #e8e8e8, #f0f0f0, #ffffff);
+  justify-content: space-between;
+  display: flex;
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6,
+#img7,
+#img8,
+#img9,
+#img10,
+#img11,
+#img12,
+#img13,
+#img14 {
+  padding: 20px 0;
+  width: 70px;
+  margin-left: 25px;
+}
+#img1 {
+  width: 80px;
+}
+#img2 {
+  width: 80px;
+}
+.imglink {
+  text-decoration: none;
+}
